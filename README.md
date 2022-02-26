@@ -1,2 +1,4 @@
 # BitcoinTradeBot
 Bot that trades cryptocurrencies automatically using the change in RSI values. 
+With the API created by the Binance exchange, you can trade with the cryptocurrencies in your binance wallet. But for this, you must first import the binance api library and create an API for yourself. Then the talib (technical analysis) library should be downloaded, but unfortunately it cannot be downloaded via pypi, you have to download it from the website yourself and put the files in the appropriate location.
+     RSI indicator is used in the code part. Calculation of the RSI value in the determined time and period is done with the talib library, and buy and sell orders are entered at the desired value. You can apply an RSI strategy that suits you by changing the period, time and overbought/sold zones. 
